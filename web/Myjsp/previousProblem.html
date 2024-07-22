@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.filter{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    opacity: .7;
+    background: rgb(0,0,0);
+    background: linear-gradient(167deg, rgba(0,0,0,0.9401709401709402) 0%, rgba(0,0,0,1) 37%, rgba(0,0,0,0.9401709401709402) 100%, rgb(33, 30, 30) 100%);
+}
+
+table{
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    background: rgb(0,0,0);
+    background: linear-gradient(151deg, rgb(73, 70, 70) 12%, rgb(46, 44, 44) 35%, rgb(63, 61, 61) 98%);
+    text-align: center;
+}
+
+th{
+    background-color: #e6cb44;
+    font-weight: bolder;
+    font-size: 40px;
+   
+}
+
+tr{
+    background: linear-gradient(151deg, rgb(73, 70, 70) 12%, rgb(85, 82, 82) 35%, rgb(47, 45, 45) 98%);
+    height: 100px;
+    
+}
+td{
+    color: #ffffff;
+    font-weight: bolder;
+}
+    </style>
+</head>
+<body>
+    <div class="filter"></div>
+    <table >
+        <thead>
+            <tr>
+                <th>Problem </th>
+                <th>State</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>Railway Line 
+                Solution kshetra ke liye yeh likha ja sakta hai:
+               </td>
+            <td>Submitted</td>
+        </tr>
+        <tr>
+            <td>Road Colapse</td>
+            <td>Verified</td>
+        </tr>
+        <tr>
+            <td>Light Problem</td>
+            <td>Resolved</td>
+        </tr>
+        <tr>
+            <td>Bank Problem</td>
+            <td>In Progress</td>
+        </tr>
+    </table>
+</body>
+</html>

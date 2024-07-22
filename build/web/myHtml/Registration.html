@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../myCss/Registration.css" type="text/css">
+    </head>
+    <body>
+        <div class="login_form_container">
+            <div class="login_form">
+                <h2>Registration</h2>
+                <form action="/Minor2/registration" method="POST">
+                    <div class="input_group">
+                        <i class="fa fa-user"></i>
+                        <input type="text" placeholder="Name" name="name" class="input_text" autocomplete="off" required="required" />
+                    </div>
+                    <div class="input_group">
+                        <i class="fa fa-male"></i>
+                        <input type="text" placeholder="Father-Name" name="father" class="input_textchange" autocomplete="off" required="required" />
+                    </div>
+
+                    <div class="input_group">
+                        <i class="fa fa-home"></i>
+                        <input type="text" placeholder="Address" name="address" class="input_textchange" autocomplete="off" required="required" />
+                    </div>
+
+                    <div class="input_group">
+                        <i class="fa fa-unlock-alt"></i>
+                        <input type="text" placeholder="Password" name="password" class="input_textchange" autocomplete="off" required="required"/>
+                    </div>
+                    <div class="input_group">
+                        <i class="fa fa-birthday-cake"></i>
+                        <input type="number" placeholder="Age" name="age" class="input_textchange" autocomplete="off" required="required" />
+                    </div>
+<!--                     <div class="file">
+                        <input type="file" id="file" class="file-input">
+                        <label id="filee" for="file" class="file-label">Upload Party Symbol</label>
+                    </div> -->
+                    <div class="button_group" id="login_button">
+                        <input type="reset" value="Reset" class="reset-button">
+                        <input type="submit" value="Submit" class="reset-button">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
